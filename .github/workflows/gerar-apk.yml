@@ -1,3 +1,4 @@
+YAML
 
 name: Gerar APK Android
 
@@ -23,9 +24,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-
-      - name: Configurar Android SDK
-        uses: android-actions/setup-android@v3
 
       - name: Configurar Gradle
         uses: gradle/actions/setup-gradle@v4

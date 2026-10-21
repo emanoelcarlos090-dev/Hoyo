@@ -1,8 +1,7 @@
-YAML
 
 name: Gerar APK Android
 
-"on":
+on:
   workflow_dispatch:
   push:
     branches:

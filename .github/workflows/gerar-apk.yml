@@ -1,8 +1,7 @@
-YAML
 
 name: Gerar APK Android
 
-on:
+"on":
   workflow_dispatch:
   push:
     branches:
@@ -31,7 +30,7 @@ jobs:
       - name: Configurar Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '9.3.1'
+          gradle-version: '8.13'
 
       - name: Compilar APK
         run: gradle :app:assembleDebug
@@ -42,4 +41,3 @@ jobs:
           name: meu-apk-android
           path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
-          

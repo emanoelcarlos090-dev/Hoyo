@@ -1,0 +1,6 @@
+{
+  "name": "HoYo Launcher",
+  "description": "Launcher no estilo HoYoPlay da miHoYo para download, execução e atualização dinâmica de aplicativos com resumo de novidades.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
